@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +8,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAIuJh3SlQAspK1Q5vLTJbgbK_RUEkxuE8",
+        authDomain: "fm-solutions-9d6b4.firebaseapp.com",
+        projectId: "fm-solutions-9d6b4",
+        storageBucket: "fm-solutions-9d6b4.firebasestorage.app",
+        messagingSenderId: "228056988090",
+        appId: "1:228056988090:web:20ac54296fc4b867cb8583",
+        measurementId: "G-TT694J0R66"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
@@ -69,7 +94,9 @@
             </form>
             <p class="mt-3">📞 <strong>351-2330025</strong></p>
         </div>
-        <div> <p> Facundo M. </p></div>
+        <div>
+            <p> Facundo M. </p>
+        </div>
     </section>
 
     <footer class="text-center p-3">
@@ -79,4 +106,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/enano.js"></script>
 </body>
+
 </html>
