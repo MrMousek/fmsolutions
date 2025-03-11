@@ -20,20 +20,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: url(/img/opa.png); */
-    background: linear-gradient(135deg, #222222, #444444);
+    background: url(/img/fondof.png) no-repeat center center/cover;
     color: #ffcc00;
     text-align: center;
 }
+
 .hero h1 {
     font-size: 2rem;
-    background: black;
+    background: #111;
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
+    border: 2px solid #ffcc00;
 }
 .navbar {
     background-color: #ffcc00 !important;
+    border-bottom: 10px solid #a7311a;
 }
 .nav-link {
         display: block;
