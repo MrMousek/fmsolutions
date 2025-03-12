@@ -16,7 +16,8 @@
     }
   ],
   "hosting": {
-    "public": "y",
+    "public": "public",
+    "site": "fm-solutions-9d6b4",
     "ignore": [
       "firebase.json",
       "**/.*",
