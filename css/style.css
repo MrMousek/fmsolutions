@@ -43,7 +43,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(180deg, transparent, rgba(124,58,237,0.1));
+    background: url("/img/fondof.png") center / cover no-repeat;
 }
 
 .hero h1 {
