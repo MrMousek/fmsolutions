@@ -2,7 +2,7 @@
         
 body {
     background-color: #f8f9fa;
-    font-family: 'Press Start 2P', cursive;
+    font-family: '', cursive;
     color: #222;
 }
 
@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://raw.githubusercontent.com/MrMousek/fmsolutions/refs/heads/main/img/fondof.png') no-repeat center center/cover;
+    flex-direction: column;
     color: #ffcc00;
     text-align: center;
 }
