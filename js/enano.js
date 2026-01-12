@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     enano.innerHTML = `
     <a href="http://wa.me/+5493512330025" target="_blank">
     <div class="globo-texto">¡Escribeme!</div>
-        <img src="img/whatsapp.png" alt="Whatsapp icono pxl">
+        <img src="img/whatsapp.png" alt="Whatsapp icono">
         <a/>
     `;
     document.body.appendChild(enano);
