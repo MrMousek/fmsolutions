@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     enano.classList.add("cabeza-flotante");
     enano.innerHTML = `
     <a href="http://wa.me/+5493512330025" target="_blank">
-    <div class="globo-texto">¡Escribeme!</div>
+    <div class="globo-texto">¡Escríbeme!</div>
         <img src="img/whatsapp.png" alt="Whatsapp icono">
         <a/>
     `;

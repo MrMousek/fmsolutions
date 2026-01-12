@@ -37,13 +37,15 @@ body {
 
 /* HERO */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
-    background: url("/img/fondof.png") center / cover no-repeat;
+    background-image: url("/img/hero-bg-desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -61,6 +63,12 @@ body {
     color: var(--text-main);
     text-shadow: 0 0 10px rgba(34,211,238,0.4);
 }
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
 
 /* BUTTONS */
 .btn-primary {
@@ -129,3 +137,11 @@ footer {
         font-size: 1.5rem;
     }
 }
+@media (max-width: 991px) {
+    .hero {
+        background-image: url("/img/hero-bg-mobile.png");
+        background-position: center;
+        background-size: cover;
+    }
+}
+
